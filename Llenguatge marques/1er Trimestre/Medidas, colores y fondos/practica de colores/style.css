@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(49, 174, 131);
+}
+
+p {
+    color: crimson;
+
+}
+
+.segundo {
+    color: #cfc72c;
+
+}
+
+.tercero {
+    color: hsl(206, 87%, 33%);
+    background-color: hsl(204, 17%, 88%);
+    opacity: 0.8;
+
+}
+
+.enlace {
+    background-color: rgb(34, 100, 142);
+    opacity: 0.4;
+}

@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'brahma', sans-serif;
+    
+}
+
+.container {
+    max-width: 1200px; 
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'Brahma';
+    src: url(fonts/brahma-rounded-bold.ttf) format(truetype);
+}
+body {
+    background-color: #FAF8ED;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 5%;
+    overflow-x: hidden;
+    min-width: 200px;
+}
+
+header {
+    padding: 1rem;
+    overflow: auto;
+    color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+.logo {
+    float: left;
+    position: relative;
+}
+
+.menu ul {
+    float: left;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2D3134;
+    margin-left: 25px;
+    
+}
+
+.book {
+    float: right;
+    margin-right: 70px;
+    border: #F66F4D solid 1px;
+    border-radius: 40px;
+    color: #F66F4D;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    background-color: #FAF8ED;
+    cursor: pointer;
+}
+
+
+.section1 {
+    position: relative;
+    font-family: 'Brahma', sans-serif;
+    padding-top: 1rem;
+    display: inline-block;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.section1 h1 {
+    position: relative;
+    font-size: 4rem;
+    line-height: normal;
+    padding-top: 6rem;
+    max-width: 65%;
+}
+
+.section1 p {
+    position: relative;
+    font-size: 1rem;
+    line-height: normal;
+    padding-top: 6rem;
+}
+
+.map {
+    position: relative;
+    display: inline-block;
+}
+
+.imagenes { 
+    position: right;
+    display: inline-block;
+    width: max-content;
+}
+
+.destinations h2 {
+    position: relative;
+    padding-top: 5%;
+    font-size: 3rem;
+    color: #2D3134;
+    max-width: 25%;
+}
+
+.noticia {
+    display: inline-block;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 10px;
+    width: 33%;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.destinations img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.button {
+    float: right;
+    border: #2D3134 solid 1px;
+    border-radius: 40px;
+    color: #2D3134;
+    text-align: center;
+    width: 90px;
+    height: 40px;
+    background-color: #FAF8ED;
+    cursor: pointer;
+}
+
+.newsletter {
+    background-image: url(img/bg-newsletter.jpg);
+    background-size: cover;
+    padding: 4rem;
+    text-align: center;
+    color: #2D3134;
+    border-radius: 30px;
+}
+
+.newsletter h3 {
+    font-size: 35px;  
+    text-align: center;
+}
+.newsletter p {
+    color: #5B5F62;
+    padding: 1rem;
+    text-align: center;
+}
+
+input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #DDD;
+}
+.input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #FFFFFF;
+    background-size: 1200px;
+    text-align: center;
+    padding: 2rem;
+    color: #5B5F62;
+}
+
+
+
+.dawlogo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #2D3134;
+}
+
+.social-icons a {
+    
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #F66F4D;
+}
+.FB {
+    width: 4%;
+}
+.IG {
+    width: 4%;
+}
+.TW {
+    width: 4%;
+}

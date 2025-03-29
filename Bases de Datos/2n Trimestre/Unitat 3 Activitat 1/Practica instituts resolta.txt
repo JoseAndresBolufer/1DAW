@@ -1,0 +1,35 @@
+--Creamos la tabla "comarques"
+CREATE TABLE comarques(
+	nom_c			VARCHAR(50),
+	provincia		VARCHAR(20),
+	CONSTRAINT PK_comarques PRIMARY KEY(nom_c));
+
+--Creamos la tabla "poblacions" sin la Clave Ajena
+CREATE TABLE poblacions(
+	nom			VARCHAR(50),
+	poblacio	NUMERIC(8),
+	extensio	NUMERIC(5),
+	altura		NUMERIC(5),
+	longitud	FLOAT,
+	lat			FLOAT,
+	llengua		VARCHAR(20),
+	nom_c		VARCHAR(50),
+	CONSTRAINT PK_poblacions PRIMARY KEY(nom));
+	
+--Añadimos a la tabla "poblacions" la Clave Ajena a  "comarques"
+ALTER TABLE poblacions
+ADD CONSTRAINT FK_poblacions_comarques FOREIGN KEY (nom_c) REFERENCES comarques;
+
+--Creamos la tabla "instituts" sin la Clave Ajena
+CREATE TABLE instituts(
+	codi		NUMERIC(10),
+	nom			VARCHAR(50),
+	adreca		VARCHAR(100),
+	numero		NUMERIC(3),
+	codpostal	NUMERIC(5),
+	localitat	VARCHAR(50),
+	CONSTRAINT PK_instituts PRIMARY KEY(codi));
+	
+--Añadimos a la tabla "instituts" la Clave Ajena a  "poblacions"
+ALTER TABLE instituts
+ADD CONSTRAINT FK_instituts_poblacions FOREIGN KEY (localitat) REFERENCES poblacions;

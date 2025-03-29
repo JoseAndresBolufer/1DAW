@@ -1,0 +1,15 @@
+Comandos utilitzats en PowerShell
+
+Update-help
+Get-help (amb extensions com get-help item)
+get-childitem
+new-item
+get-command (-verb busca primer especifics)(paregut a help, pots afegir que vols que et diga, com *ADD*)
+new-item -itemType directory
+cd set-location
+md new-item -itemtype directory
+rm remove-item
+cp copy-item
+copy copy-item
+is get-childitem
+dir get-childitem 

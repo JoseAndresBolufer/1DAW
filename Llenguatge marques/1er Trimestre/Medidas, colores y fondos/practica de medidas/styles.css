@@ -1,0 +1,24 @@
+
+.px-measure {
+    font-size: 25px;
+}
+
+.percent-measure {
+    font-size: 5vw;
+}
+
+.em-measure {
+    font-size: 4em;
+}
+
+.rem-measure {
+    font-size: 2rem;
+}
+
+.vw-measure {
+    width: 8vw;
+}
+
+.vh-measure{
+    height: 75vh;
+}

@@ -1,0 +1,35 @@
+.background-color {
+    background-color: aquamarine;
+}
+
+.background-gradient {
+    background: linear-gradient(to bottom, blue, purple);
+}
+
+.background-img-cover {
+    background-image: url(cheque.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.background-img-contain {
+    background-image: url(cheque.png);
+    background-size: contain;
+
+}
+
+.background-img-repeat {
+    background-image: url(cheque.png);
+    background-size: repeat;
+}
+
+.opacity-test {
+    opacity: calc(0.1);
+}
+
+.background-img-opacity {
+    background-image: url(cheque.png);
+    /*no se como meter la opacidad en la imagen solamente*/
+}
